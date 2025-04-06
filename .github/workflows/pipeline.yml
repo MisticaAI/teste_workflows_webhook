@@ -17,7 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Hello World
-        run: echo "Hello World"
+        run: cat arquivo.txt
 
   job3:
     runs-on: ubuntu-latest
