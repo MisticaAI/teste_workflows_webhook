@@ -1,0 +1,26 @@
+name: testes_webhook
+#
+on:
+  workflow_dispatch:
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Hello World
+        run: echo "Hello World"
+    
+  job2:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Hello World
+        run: echo "Hello World"
+
+  job3:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Hello World
+        run: echo "Hello World"
