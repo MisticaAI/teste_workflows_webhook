@@ -16,6 +16,8 @@ jobs:
     needs: job1
     steps:
       - uses: actions/checkout@v3
+      - name: Access file
+        run: cat arquivo_inexistente.txt
       - name: Hello World
         run: echo "Hello World"
 
